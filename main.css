@@ -1,0 +1,100 @@
+
+html {
+    background-image: url('picture.jpg');
+}
+
+body {
+    font-family: 'Faction Personal';
+    
+}
+
+div {
+    border-radius: 10px;
+}
+
+button {
+    font-weight: bold;
+    
+}
+
+.center-all {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#calculator-frame {
+    height: 600px;
+    width: 400px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#output-screen {
+    width: 95%;
+    height: 25%;
+    background-color: white;
+    margin: 10px;
+}
+
+#typed-chars {
+    padding: 10px;
+    text-align: right;
+    font-size: 30px;
+    color: grey;
+    border-top: 1px solid grey;
+    border-radius: 0;
+}
+
+#calculated-result {
+    padding: 20px;
+    text-align: right;
+    font-size: 50px;
+}
+
+#buttons {
+    width: 95%;
+    height: 70%;
+    margin: 10px;
+    font-size: 0px;
+}
+
+.op-button, .num-button {
+    width: 25%;
+    height: 100%;
+    box-shadow: 0 0 1px white;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    line-height: 200%;
+    font-size: 30px;
+    outline: none; 
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 10px;
+}
+
+.op-button:active, .num-button:active {
+    transform: translateY(1px);
+}
+
+
+.op-button {
+    background-color: black;
+    text-shadow: 0 0 2px white;
+}
+
+
+.num-button {
+    background-color: lightgrey;
+    text-shadow: 0 0 2px black;
+}
+
+
+
+.calc-row {
+    width: 100%;
+    height: 19.9%;
+}
+
